@@ -1,26 +1,34 @@
 # Linux Server Health Monitor
 
-A simple Bash script to check the health of a Linux server.
+## Project Overview
+A beginner-friendly Linux server monitoring project built using Bash scripting on Ubuntu Linux.
+
+## Project Purpose
+The purpose of this project is to monitor important Linux server health information and generate a health report.
 
 ## Features
+- RAM usage monitoring
+- Disk space monitoring
+- System uptime monitoring
+- Top 5 memory-consuming processes
+- Automated server health report
 
-- Displays RAM usage
-- Displays disk space information
-- Shows system uptime
-- Lists the top 5 memory-consuming processes
-- Generates a server health report in the terminal
+## Tools & Technologies
+- Ubuntu Linux
+- Bash Scripting
+- Linux Commands
+- Git
+- GitHub
 
 ## Requirements
-
-- Ubuntu or another Linux distribution
-- Bash
-- Linux commands: free, df, uptime, ps, head
+- Ubuntu or any Linux distribution
+- Bash shell
 
 ## How to Run
 
-1. Clone this repository.
+1. Clone the repository.
 2. Open the project directory.
-3. Make the script executable:
+3. Give execution permission:
 
    chmod +x server_health.sh
 
@@ -28,13 +36,12 @@ A simple Bash script to check the health of a Linux server.
 
    ./server_health.sh
 
-## Technologies Used
-
-- Ubuntu Linux
-- Bash Scripting
-- Git
-- GitHub
+## Skills Learned
+- Linux command line
+- Bash scripting
+- File management
+- Server monitoring
+- Git and GitHub
 
 ## Author
-
 Prateek

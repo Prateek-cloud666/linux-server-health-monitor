@@ -1,24 +1,40 @@
-my first cloud freelancing project
+# Linux Server Health Monitor
 
-Name:Prateek 
-Operating system: Ubuntu
-Project:Linux Basics
-Skills:Linux commands 
-PROJECT: Linux Server Health Monitoring
+A simple Bash script to check the health of a Linux server.
 
-PURPOSE:
-This project monitors Linux server health.
+## Features
 
-FEATURES:
-1. RAM monitoring
-2. Disk space monitoring
-3. System uptime monitoring
-4. Top 5 memory-consuming processes
-5. Automated health report using Bash
+- Displays RAM usage
+- Displays disk space information
+- Shows system uptime
+- Lists the top 5 memory-consuming processes
+- Generates a server health report in the terminal
 
-TOOLS:
-Ubuntu Linux
-Bash Scripting
-Cron Jobs
+## Requirements
 
-CREATED BY: Prateek
+- Ubuntu or another Linux distribution
+- Bash
+- Linux commands: free, df, uptime, ps, head
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project directory.
+3. Make the script executable:
+
+   chmod +x server_health.sh
+
+4. Run the script:
+
+   ./server_health.sh
+
+## Technologies Used
+
+- Ubuntu Linux
+- Bash Scripting
+- Git
+- GitHub
+
+## Author
+
+Prateek

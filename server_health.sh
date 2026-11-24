@@ -12,10 +12,16 @@ echo "DATE AND TIME"
 date
 
 echo ""
+echo "CPU USAGE"
+top -bn1 | grep "%Cpu(s)" | awk '{print 100 - $8 "%"}'
+echo ""
 echo "RAM INFORMATION"
 free -h
 
+echo "RAM USAGE PERCENTAGE"
+free | awk '/Mem:/ {printf "%.1f%%\n", $3/$2 * 100}'
 echo ""
+
 echo "DISK INFORMATION"
 df -h
 

@@ -1,0 +1,52 @@
+======================================
+       LINUX SERVER HEALTH REPORT
+======================================
+
+DATE AND TIME
+Tue Nov 24 16:21:39 UTC 2026
+
+CPU USAGE
+2.1%
+
+RAM INFORMATION
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       413Mi       3.0Gi       4.1Mi       310Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+RAM USAGE PERCENTAGE
+11.0%
+
+DISK INFORMATION
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         230G  110G  121G  48% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.9G   36K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  3.4M  1.9G   1% /init
+none            1.9G  516K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   80K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   80K  1.9G   1% /mnt/wslg/doc
+C:\             230G  110G  121G  48% /mnt/c
+D:\             246G  102M  246G   1% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.9G     0  1.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           377M   12K  377M   1% /run/user/1000
+
+SYSTEM UPTIME
+ 16:21:39 up 36 min,  1 user,  load average: 0.03, 0.03, 0.00
+
+TOP 5 MEMORY USING PROCESSES
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         204  0.0  0.8 123476 32632 ?        Ssl  15:45   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         143  0.0  0.7  44112 29764 ?        Ss   15:45   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          48  0.0  0.5  50676 19756 ?        S<s  15:45   0:00 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.4  24544 15580 ?        Ss   15:45   0:01 /sbin/init
+root         896  0.0  0.3 1866032 15032 ?       Ssl  16:16   0:00 /usr/libexec/wsl-pro-service
+
+===== REPORT COMPLETED =====

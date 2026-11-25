@@ -24,8 +24,11 @@ echo ""
 
 echo "DISK INFORMATION"
 df -h
-
 echo ""
+echo "DISK USAGE WARNING CHECK"
+df -P / | awk 'NR==2 {gsub("%","",$5); if ($5 >= 80) print "WARNING: Disk usage is HIGH"; else print "OK: Disk usage is NORMAL"}'
+echo ""
+
 echo "SYSTEM UPTIME"
 uptime
 

@@ -36,12 +36,5 @@ The purpose of this project is to monitor important Linux server health informat
 
    ./server_health.sh
 
-## Skills Learned
-- Linux command line
-- Bash scripting
-- File management
-- Server monitoring
-- Git and GitHub
-
 ## Author
 Prateek
